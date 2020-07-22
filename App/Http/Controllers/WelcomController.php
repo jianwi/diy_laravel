@@ -2,14 +2,16 @@
 
 namespace App\Http\controllers;
 use App\Models\Student;
+use Illuminate\Container\Container;
 
 class WelcomController
 {
     public function index()
     {
-        $a = Student::all();
-        dump($a);
-        return '控制器成功';
+        $app = Container::getInstance();
+
+        $factory = $app->make('view');
+        return $factory->make('welcome')->with(['t'=>"test 传入的数据"]);
     }
 
 }

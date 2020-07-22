@@ -9,7 +9,8 @@
     "require": {
         "illuminate/routing": "*",
         "illuminate/events": "*",
-        "illuminate/database": "*"
+        "illuminate/database": "*",
+        "illuminate/view": "*"
     },
     "autoload": {
         "psr-4": {
