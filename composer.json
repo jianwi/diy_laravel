@@ -9,5 +9,10 @@
     "require": {
         "illuminate/routing": "*",
         "illuminate/events": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
     }
 }
