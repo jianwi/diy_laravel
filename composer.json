@@ -1,0 +1,13 @@
+{
+    "name": "dujianjun/my_laravel",
+    "authors": [
+        {
+            "name": "dujianjun",
+            "email": "v@jianwi.cn"
+        }
+    ],
+    "require": {
+        "illuminate/routing": "*",
+        "illuminate/events": "*"
+    }
+}
